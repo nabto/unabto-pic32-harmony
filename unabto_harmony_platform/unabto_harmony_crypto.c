@@ -6,18 +6,13 @@
 
 bool aes128_cbc_encrypt(const uint8_t* key, uint8_t* input, uint16_t inputLength)
 {
-    if (inputLength > 2048) {
-        return false;
-    }
-    static uint8_t inputBlock[2048];
-    memcpy(inputBlock, input, inputLength);
     CRYPT_AES_CTX ctx;
-    int status = CRYPT_AES_KeySet(&ctx, key, 16, inputBlock, CRYPT_AES_ENCRYPTION);
+    int status = CRYPT_AES_KeySet(&ctx, key, 16, input, CRYPT_AES_ENCRYPTION);
     if (status != 0) {
         NABTO_LOG_ERROR(("encrytion key set failed status %i", status));
         return false;
     }
-    status = CRYPT_AES_CBC_Encrypt(&ctx, input+16, inputBlock+16, inputLength - 16);
+    status = CRYPT_AES_CBC_Encrypt(&ctx, input+16, input+16, inputLength - 16);
     if (status != 0) {
         NABTO_LOG_ERROR(("aes encryption failed %i", status));
         return false;
