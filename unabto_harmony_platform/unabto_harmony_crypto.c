@@ -64,13 +64,14 @@ void unabto_hmac_sha256_buffers(const unabto_buffer keys[], uint8_t keysSize,
         return;
     }
 
-    // workaround for bug
+ 
     for (i = 0; i < messagesSize; i++) {
         uint8_t size = messages[i].size;
         uint8_t* data = messages[i].data;
         if (size > BUFFER_SIZE) {
             return;
         }
+        // workaround for bug, if the data is not copied over to the buffer the algorithm fails.
         memcpy(buffer, data, size);
         status = CRYPT_HMAC_DataAdd(&ctx, buffer, size);
         if (status != 0) {

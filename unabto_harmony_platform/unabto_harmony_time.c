@@ -5,7 +5,6 @@
 bool nabtoIsStampPassed(nabto_stamp_t *stamp)
 {
     nabto_stamp_t now = nabtoGetStamp();
-    NABTO_LOG_INFO(("now %i", now));
     return (((int32_t)(*stamp - now)) < 0);
 }
 

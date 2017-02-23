@@ -54,19 +54,23 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 // *****************************************************************************
 
 #include "app.h"
+#include <bsp_config.h>
+#include <crypto/crypto.h>
+#include <stdint.h>
 
 #include <unabto/unabto_common_main.h>
 #include <unabto/unabto_app.h>
 #include <unabto/unabto_util.h>
 #include <unabto/unabto_app_adapter.h>
 #include <unabto/unabto_hmac_sha256.h>
+#include <unabto/unabto_prf.h>
 
 APP_DATA appData;
 
 const char* idSuffix = ".starterkit.u.nabto.net";
-char idBuffer[32];
+char idBuffer[64];
 
-bool hmac_test();
+const char* server_id_end = ".starterkit.u.nabto.net";
 
 void APP_Initialize ( void )
 {
@@ -75,57 +79,14 @@ void APP_Initialize ( void )
 
 }
 
-bool hmac_test() {
-    uint8_t testKey[] = {
-        0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 
-        0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 
-        0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 
-        0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 
-        0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 
-        0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 
-        0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 
-        0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 0xaa, 
-        0xaa, 0xaa, 0xaa }; 
-
-    uint8_t testData[] = {
-        0x54, 0x65, 0x73, 0x74, 0x20, 0x55, 0x73, 0x69, 0x6e, 0x67, 0x20, 0x4c, 0x61, 0x72, 0x67, 0x65, 0x72, 0x20, 0x54, 0x68, 0x61, 0x6e, 0x20, 0x42, 0x6c, 0x6f, 0x63, 0x6b, 0x2d, 0x53, 0x69, 0x7a, 0x65, 0x20, 0x4b, 0x65, 0x79, 0x20, 0x2d, 0x20, 0x48, 0x61, 0x73, 0x68, 0x20, 0x4b, 0x65, 0x79, 0x20, 0x46, 0x69, 0x72, 0x73, 0x74
-    };
-
-    uint8_t hashResult[] = {
-        0x60, 0xe4, 0x31, 0x59, 0x1e, 0xe0, 0xb6, 0x7f, 0x0d, 0x8a, 0x26, 0xaa, 0xcb, 0xf5, 0xb7, 0x7f, 0x8e, 0x0b, 0xc6, 0x21, 0x37, 0x28, 0xc5, 0x14, 0x05, 0x46, 0x04, 0x0f, 0x0e, 0xe3, 0x7f, 0x54
-    };
-
-    unabto_buffer keys[1];
-    unabto_buffer messages[1];
-
-    keys[0].data = testKey;
-    keys[0].size = 131;
-    messages[0].data = testData;
-    messages[0].size = 54;
-
-    uint8_t mac[32];
-    
-    unabto_hmac_sha256_buffers(keys, 1, messages,1, mac, 32);
-
-    return (memcmp(mac, hashResult, 32) == 0);
-}
-
-
-const char* server_id_end = ".starterkit.u.nabto.net";
-
 void APP_Tasks ( void )
 {
-
     /* Check the application's current state. */
     switch ( appData.state )
     {
         /* Application's initial state. */
         case APP_STATE_INIT:
-        {
-            if (!hmac_test()) {
-                break;
-            }
-            
+        {            
             SYS_STATUS tcpipStat = TCPIP_STACK_Status(sysObj.tcpip);
             if(tcpipStat == SYS_STATUS_READY) {
                 appData.state = APP_STATE_INIT_UNABTO;
@@ -135,6 +96,7 @@ void APP_Tasks ( void )
 
         case APP_STATE_INIT_UNABTO:
         {
+            unabto_udp_debug_init("192.168.1.103", 4242);
             TCPIP_NET_HANDLE defaultIf = TCPIP_STACK_NetDefaultGet();
             const uint8_t* physicalAddress = TCPIP_STACK_NetAddressMac(defaultIf);
             if (physicalAddress == NULL) {
@@ -146,8 +108,8 @@ void APP_Tasks ( void )
             memset(idBuffer, 0, sizeof(idBuffer));
             sprintf(idBuffer, "%02x%02x%02x%s", physicalAddress[3], physicalAddress[4], physicalAddress[5], idSuffix);
             nms->id = idBuffer;
-            nms->cryptoSuite = CRYPT_W_NULL_DATA;
-            //nms->cryptoSuite = CRYPT_W_AES_CBC_HMAC_SHA256;
+
+            nms->cryptoSuite = CRYPT_W_AES_CBC_HMAC_SHA256;
             nms->secureAttach = 1;
             nms->secureData = 1;
             memset(nms->presharedKey, 0, PRE_SHARED_KEY_SIZE);
@@ -160,7 +122,7 @@ void APP_Tasks ( void )
         }
         
         case APP_STATE_SERVICE_TASKS:
-        {
+        {            
             unabto_tick();
             break;
         }
@@ -173,8 +135,6 @@ void APP_Tasks ( void )
         }
     }
 }
-
-
 
 // Function prototypes
 uint8_t setLed(uint8_t led_id, uint8_t led_on);
