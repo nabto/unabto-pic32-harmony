@@ -3,6 +3,7 @@
 #include <unabto/unabto_aes_cbc.h>
 
 #include <crypto/crypto.h>
+#include <string.h>
 
 bool aes128_cbc_encrypt(const uint8_t* key, uint8_t* input, uint16_t inputLength)
 {
@@ -37,7 +38,9 @@ bool aes128_cbc_decrypt(const uint8_t* key, uint8_t* input, uint16_t inputLength
     return true;
 }
 
-static uint8_t buffer[2048];
+#define BUFFER_SIZE 2048
+
+static uint8_t buffer[BUFFER_SIZE];
 void unabto_hmac_sha256_buffers(const unabto_buffer keys[], uint8_t keysSize,
                                 const unabto_buffer messages[], uint8_t messagesSize,
                                 uint8_t* mac, uint16_t macSize)
@@ -49,6 +52,9 @@ void unabto_hmac_sha256_buffers(const unabto_buffer keys[], uint8_t keysSize,
     // merge key bits together
     ptr = buffer;
     for (i = 0; i < keysSize; i++) {
+        if ((ptr - buffer) + keys[i].size > BUFFER_SIZE) {
+            return;
+        }
         memcpy(ptr, keys[i].data, keys[i].size); ptr += keys[i].size;
     }
     
@@ -59,20 +65,17 @@ void unabto_hmac_sha256_buffers(const unabto_buffer keys[], uint8_t keysSize,
     }
 
     // workaround for bug
-    ptr = buffer;
-    int dataSize = 0;
     for (i = 0; i < messagesSize; i++) {
         uint8_t size = messages[i].size;
         uint8_t* data = messages[i].data;
-        memcpy(ptr, data, size); ptr += size;
-        dataSize += size;
-    }
-    status = 42;
-    status = CRYPT_HMAC_DataAdd(&ctx, buffer, dataSize);
-        
-    if (status != 0) {
-        NABTO_LOG_ERROR(("could not add data to hmac %i", status));
-        return;
+        if (size > BUFFER_SIZE) {
+            return;
+        }
+        memcpy(buffer, data, size);
+        status = CRYPT_HMAC_DataAdd(&ctx, buffer, size);
+        if (status != 0) {
+            return;
+        }
     }
     
     uint8_t hmac[CRYPT_SHA256_DIGEST_SIZE];
