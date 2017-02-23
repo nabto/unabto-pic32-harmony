@@ -6,13 +6,18 @@
 
 bool aes128_cbc_encrypt(const uint8_t* key, uint8_t* input, uint16_t inputLength)
 {
+    if (inputLength > 2048) {
+        return false;
+    }
+    static uint8_t inputBlock[2048];
+    memcpy(inputBlock, input, inputLength);
     CRYPT_AES_CTX ctx;
-    int status = CRYPT_AES_KeySet(&ctx, key, 16, input, CRYPT_AES_ENCRYPTION);
+    int status = CRYPT_AES_KeySet(&ctx, key, 16, inputBlock, CRYPT_AES_ENCRYPTION);
     if (status != 0) {
         NABTO_LOG_ERROR(("encrytion key set failed status %i", status));
         return false;
     }
-    status = CRYPT_AES_CBC_Encrypt(&ctx, input+16, input+16, inputLength - 16);
+    status = CRYPT_AES_CBC_Encrypt(&ctx, input+16, inputBlock+16, inputLength - 16);
     if (status != 0) {
         NABTO_LOG_ERROR(("aes encryption failed %i", status));
         return false;
@@ -29,7 +34,7 @@ bool aes128_cbc_decrypt(const uint8_t* key, uint8_t* input, uint16_t inputLength
         return false;
     }
 
-    status = CRYPT_AES_CBC_Decrypt(&ctx, input, input+16, inputLength - 16);
+    status = CRYPT_AES_CBC_Decrypt(&ctx, input+16, input+16, inputLength - 16);
     if (status != 0) {
         NABTO_LOG_ERROR(("aes decryption failed %i", status));
         return false;
@@ -58,13 +63,23 @@ void unabto_hmac_sha256_buffers(const unabto_buffer keys[], uint8_t keysSize,
         return;
     }
 
+    // workaround for bug
+    ptr = buffer;
+    int dataSize = 0;
     for (i = 0; i < messagesSize; i++) {
-        status = CRYPT_HMAC_DataAdd(&ctx, messages[i].data, messages[i].size);
-        if (status != 0) {
-            NABTO_LOG_ERROR(("could not add data to hmac %i", status));
-            return;
-        }
+        uint8_t size = messages[i].size;
+        uint8_t* data = messages[i].data;
+        memcpy(ptr, data, size); ptr += size;
+        dataSize += size;
     }
+    status = 42;
+    status = CRYPT_HMAC_DataAdd(&ctx, buffer, dataSize);
+        
+    if (status != 0) {
+        NABTO_LOG_ERROR(("could not add data to hmac %i", status));
+        return;
+    }
+    
     uint8_t hmac[CRYPT_SHA256_DIGEST_SIZE];
     status = CRYPT_HMAC_Finalize(&ctx, hmac);
     if (status != 0) {
