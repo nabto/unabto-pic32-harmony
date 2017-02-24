@@ -1,0 +1,11 @@
+/demo/firmware/demo.X/nbproject/private/
+/demo/firmware/demo.X/build/default/
+/demo/firmware/demo.X/dist/default/
+/platform_test/firmware/platform_test.X/nbproject/private/
+/platform_test/firmware/platform_test.X/build/DM30004-2/
+/platform_test/firmware/platform_test.X/dist/DM30004-2/
+/demo/firmware/demo.X/build/DM30004-2/
+/demo/firmware/demo.X/dist/DM30004-2/
+*.o
+*.o.d
+*~
