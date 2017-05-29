@@ -28,6 +28,12 @@ Clone this github repository recursively such that submodules get checked out.
   3. Discover the device and connect to it.
 
 
+## Quirks
+
+If you are starting a new project based on this increase 
+the TCPIP_DNS_CLIENT_MAX_HOSTNAME_LEN to something more than 32 bytes 
+if your hostnames are longer than that.
+
 ## Test level
 
 The code is smoke tested.
