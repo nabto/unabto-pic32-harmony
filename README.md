@@ -6,11 +6,13 @@ The version numbers below is the versions the software has been built
 and tested with, older or newer versions may work.
 
 # Requirements
-  1. Microchip XC32 1.42
-  2. Microchip Harmony 1.10
-  3. Microchip MPLAB X IDE 3.51
-  4. Microchip Ethernet Starterkit
+  1. Microchip XC32 1.43
+  2. Microchip Harmony 1.11
+  3. Microchip MPLAB X IDE 3.65
+  4. Microchip Ethernet Starterkit II
 
+# Prerequisites
+You must be able to make a simple hallo world Harmony project in the MPLAB X IDE
 
 ## How to program the device
 
@@ -18,13 +20,13 @@ Clone this github repository recursively such that submodules get checked out.
 
   * git clone --recursive https://github.com/nabto/unabto-pic32-harmony
   * open project in demo/firmware/ folder in MPLAB X
-  * compile 
+  * compile with XC32
   * flash target
   
 ## How to use the demo
 
   1. Flash the device as explained in the above section. 
-  2. Open the nabto app from the android or ios app store.
+  2. Open the Nabto Client app from the android or ios app store.
   3. Discover the device and connect to it.
 
 

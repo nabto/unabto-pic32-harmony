@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<configuration version="1.0.10.0">
+<configuration version="1.0.11.0">
   <DisplayManager>
     <SystemInitScript/>
     <SystemStartScript/>
   </DisplayManager>
   <General>
-    <HarmonyPath path="../../../microchip/harmony/v1_10"/>
+    <HarmonyPath path="../../../microchip/harmony/v1_11"/>
     <Processor name=""/>
     <ForceOptimization flag="true"/>
     <MergeStrategy flag="USER_ALL"/>
@@ -1161,7 +1161,8 @@
       <Template>
         <Name>system_config.h</Name>
         <Path>Header Files/app/system_config/DM30004-2</Path>
-        <Checksum>2EFE2B3FC7C42EB0393D9EABFFB60526</Checksum>
+        <Checksum>8AD0547A68F1786A4A825D110B1D7480</Checksum>
+        <ProjectFileChecksum>76E71911A1CB7542AA041647568A8752</ProjectFileChecksum>
       </Template>
       <Template>
         <Name>sys_ports_static.c</Name>
@@ -1194,16 +1195,16 @@
     </Templates>
     <CompilerItems>
       <C32>
-        <Include value="/home/mkm/sandbox/unabto-pic32-harmony/demo/firmware/src"/>
-        <Include value="/home/mkm/sandbox/unabto-pic32-harmony/demo/firmware/src/system_config/DM30004-2"/>
-        <Include value="/home/mkm/sandbox/unabto-pic32-harmony/demo/firmware/src/DM30004-2"/>
-        <Include value="/home/mkm/microchip/harmony/v1_10/framework"/>
-        <Include value="/home/mkm/sandbox/unabto-pic32-harmony/demo/firmware/src/system_config/DM30004-2/framework"/>
-        <Include value="../../../../../microchip/harmony/v1_10/bsp/pic32mx_eth_sk2"/>
+        <Include value="/home/tfk/sandbox/unabto-pic32-harmony/demo/firmware/src"/>
+        <Include value="/home/tfk/sandbox/unabto-pic32-harmony/demo/firmware/src/system_config/DM30004-2"/>
+        <Include value="/home/tfk/sandbox/unabto-pic32-harmony/demo/firmware/src/DM30004-2"/>
+        <Include value="/home/tfk/microchip/harmony/v1_11/framework"/>
+        <Include value="/home/tfk/sandbox/unabto-pic32-harmony/demo/firmware/src/system_config/DM30004-2/framework"/>
+        <Include value="../../../../../microchip/harmony/v1_11/bsp/pic32mx_eth_sk2"/>
       </C32>
     </CompilerItems>
     <Libraries>
-      <Library value="../../../../../microchip/harmony/v1_10/bin/framework/peripheral/PIC32MX795F512L_peripherals.a"/>
+      <Library value="../../../../../microchip/harmony/v1_11/bin/framework/peripheral/PIC32MX795F512L_peripherals.a"/>
     </Libraries>
   </Manifest>
 </configuration>

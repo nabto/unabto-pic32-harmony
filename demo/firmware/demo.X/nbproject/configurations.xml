@@ -22,7 +22,7 @@
       </logicalFolder>
       <logicalFolder name="f2" displayName="bsp" projectFiles="true">
         <logicalFolder name="f1" displayName="pic32mx_eth_sk2" projectFiles="true">
-          <itemPath>../../../../../microchip/harmony/v1_10/bsp/pic32mx_eth_sk2/bsp_config.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/bsp/pic32mx_eth_sk2/bsp_config.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f1" displayName="framework" projectFiles="true">
@@ -30,297 +30,297 @@
           <logicalFolder name="f1" displayName="src" projectFiles="true">
             <logicalFolder name="f1" displayName="zlib-1.2.7" projectFiles="true">
               <logicalFolder name="f1" displayName="examples" projectFiles="true">
-                <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/examples/gzlog.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/examples/gzlog.h</itemPath>
               </logicalFolder>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/crc32.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/deflate.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/inffast.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/inffixed.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/inflate.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/inftrees.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/trees.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/zconf.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/zlib.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/zutil.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/gzguts.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/crc32.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/deflate.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/inffast.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/inffixed.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/inflate.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/inftrees.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/trees.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/zconf.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/zlib.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/zutil.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/gzguts.h</itemPath>
             </logicalFolder>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/ecc.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/arc4.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/pwdbased.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/tfm.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/asn.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/des3.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/rsa.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/aes.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/md5.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/sha.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/sha256.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/sha512.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/hmac.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/hash.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/compress.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/random.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/coding.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/error-crypt.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/integer.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/internal.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/logging.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/memory.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/misc.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/port.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/settings.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/types.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/version.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/visibility.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/asn_public.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/camellia.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/certs_test.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/dh.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/dsa.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/ec.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/hc128.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/md2.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/md4.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/mpi_class.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/mpi_superclass.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/rabbit.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/ripemd.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/ssl.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/ecc.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/arc4.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/pwdbased.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/tfm.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/asn.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/des3.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/rsa.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/aes.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/md5.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/sha.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/sha256.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/sha512.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/hmac.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/hash.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/compress.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/random.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/coding.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/error-crypt.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/integer.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/internal.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/logging.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/memory.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/misc.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/port.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/settings.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/types.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/version.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/visibility.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/asn_public.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/camellia.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/certs_test.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/dh.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/dsa.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/ec.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/hc128.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/md2.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/md4.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/mpi_class.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/mpi_superclass.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/rabbit.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/ripemd.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/ssl.h</itemPath>
           </logicalFolder>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/crypto.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/crypto.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f2" displayName="driver" projectFiles="true">
           <logicalFolder name="f1" displayName="ethmac" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
               <logicalFolder name="f1" displayName="dynamic" projectFiles="true">
-                <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethmac/src/dynamic/_eth_dcpt_lists.h</itemPath>
-                <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethmac/src/dynamic/drv_ethmac_lib.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethmac/src/dynamic/_eth_dcpt_lists.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethmac/src/dynamic/drv_ethmac_lib.h</itemPath>
               </logicalFolder>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethmac/src/drv_ethmac_local.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethmac/src/drv_ethmac_local.h</itemPath>
             </logicalFolder>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethmac/drv_ethmac.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethmac/drv_ethmac.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f2" displayName="ethphy" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
               <logicalFolder name="f1" displayName="dynamic" projectFiles="true">
-                <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethphy/src/dynamic/drv_extphy_regs.h</itemPath>
-                <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethphy/src/dynamic/drv_extphy_dp83640.h</itemPath>
-                <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethphy/src/dynamic/drv_extphy_dp83848.h</itemPath>
-                <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethphy/src/dynamic/drv_extphy_ip101gr.h</itemPath>
-                <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethphy/src/dynamic/drv_extphy_smsc8700.h</itemPath>
-                <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethphy/src/dynamic/drv_extphy_smsc8720.h</itemPath>
-                <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethphy/src/dynamic/drv_extphy_smsc8740.h</itemPath>
-                <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethphy/src/dynamic/drv_extphy_smsc9303.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethphy/src/dynamic/drv_extphy_regs.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethphy/src/dynamic/drv_extphy_dp83640.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethphy/src/dynamic/drv_extphy_dp83848.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethphy/src/dynamic/drv_extphy_ip101gr.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethphy/src/dynamic/drv_extphy_smsc8700.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethphy/src/dynamic/drv_extphy_smsc8720.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethphy/src/dynamic/drv_extphy_smsc8740.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethphy/src/dynamic/drv_extphy_smsc9303.h</itemPath>
               </logicalFolder>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethphy/src/drv_ethphy_local.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethphy/src/drv_ethphy_local.h</itemPath>
             </logicalFolder>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethphy/drv_ethphy.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethphy/drv_ethphy.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f3" displayName="tmr" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/tmr/src/drv_tmr_variant_mapping.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/tmr/src/drv_tmr_local.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/tmr/src/drv_tmr_variant_mapping.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/tmr/src/drv_tmr_local.h</itemPath>
             </logicalFolder>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/tmr/drv_tmr.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/tmr/drv_tmr_mapping.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/tmr/drv_tmr_compatibility.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/tmr/drv_tmr.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/tmr/drv_tmr_mapping.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/tmr/drv_tmr_compatibility.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f4" displayName="wifi" projectFiles="true">
             <logicalFolder name="f1" displayName="mrf24w" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/wifi/mrf24w/drv_wifi.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/wifi/mrf24w/drv_wifi.h</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/driver.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/driver_common.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/driver.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/driver_common.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f3" displayName="gfx" projectFiles="true">
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/gfx/gfx_palette.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/gfx/gfx_palette.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f8" displayName="net" projectFiles="true">
           <logicalFolder name="f1" displayName="pres" projectFiles="true">
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/net/pres/net_pres.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/net/pres/net_pres.h</itemPath>
           </logicalFolder>
         </logicalFolder>
         <logicalFolder name="f4" displayName="osal" projectFiles="true">
           <logicalFolder name="f1" displayName="src" projectFiles="true">
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/osal/src/osal_impl_basic.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/osal/src/osal_impl_none.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/osal/src/osal_impl_basic.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/osal/src/osal_impl_none.h</itemPath>
           </logicalFolder>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/osal/osal.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/osal/osal_definitions.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/osal/osal.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/osal/osal_definitions.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f5" displayName="peripheral" projectFiles="true">
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/peripheral/peripheral.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/peripheral/peripheral_common.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/peripheral/peripheral_common_32bit.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/peripheral/peripheral.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/peripheral/peripheral_common.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/peripheral/peripheral_common_32bit.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f6" displayName="system" projectFiles="true">
           <logicalFolder name="f1" displayName="clk" projectFiles="true">
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/clk/sys_clk.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/clk/sys_clk_mapping.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/clk/sys_clk.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/clk/sys_clk_mapping.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f2" displayName="common" projectFiles="true">
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/common/sys_common.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/common/sys_module.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/common/sys_buffer.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/common/sys_queue.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/common/sys_common.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/common/sys_module.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/common/sys_buffer.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/common/sys_queue.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f3" displayName="debug" projectFiles="true">
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/debug/sys_debug.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/debug/sys_debug.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f4" displayName="devcon" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/system/devcon/src/sys_devcon_local.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/system/devcon/src/sys_devcon_local.h</itemPath>
             </logicalFolder>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/devcon/sys_devcon.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/devcon/sys_devcon.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f9" displayName="fs" projectFiles="true">
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/fs/sys_fs.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/fs/sys_fs.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f5" displayName="int" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/system/int/src/sys_int_private.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/system/int/src/sys_int_private.h</itemPath>
             </logicalFolder>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/int/sys_int.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/int/sys_int_mapping.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/int/sys_int.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/int/sys_int_mapping.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f6" displayName="ports" projectFiles="true">
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/ports/sys_ports.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/ports/sys_ports.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f7" displayName="random" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/system/random/src/sys_random_local.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/system/random/src/sys_random_local.h</itemPath>
             </logicalFolder>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/random/sys_random.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/random/sys_random.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f8" displayName="tmr" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/system/tmr/src/sys_tmr_local.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/system/tmr/src/sys_tmr_local.h</itemPath>
             </logicalFolder>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/system/tmr/sys_tmr.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/system/tmr/sys_tmr.h</itemPath>
           </logicalFolder>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/system/system.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/system/system.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f7" displayName="tcpip" projectFiles="true">
           <logicalFolder name="f1" displayName="src" projectFiles="true">
             <logicalFolder name="f2" displayName="common" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/common/helpers.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/common/helpers.h</itemPath>
             </logicalFolder>
             <logicalFolder name="f1" displayName="crypto" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/crypto/aes.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/crypto/aes_cbc.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/crypto/aes_cfb.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/crypto/aes_ctr.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/crypto/aes_ecb.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/crypto/aes_ecb_pic32.h</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/crypto/aes_ofb.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/crypto/aes.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/crypto/aes_cbc.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/crypto/aes_cfb.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/crypto/aes_ctr.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/crypto/aes_ecb.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/crypto/aes_ecb_pic32.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/crypto/aes_ofb.h</itemPath>
             </logicalFolder>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/ipv4_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/ipv4_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/ndp_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/ndp_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/ipv6_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/ipv6_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/icmpv6_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcp_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcp_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/udp_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/udp_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_heap_alloc.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/arp_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/arp_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/dhcp_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/dhcp_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/dhcps_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/dhcps_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/dns_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/dns_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/dnss_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/dnss_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/ddns_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/ftp_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/ftp_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/http_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/http_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/http_net_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/http_net_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/icmp_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/nbns_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_reboot_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/smtp_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/smtpc_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/snmp_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/snmp_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/snmpv3_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/sntp_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/telnet_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/zero_conf_helper.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/zero_conf_link_local_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/zero_conf_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_announce_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/iperf_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_commands_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tftpc_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tftpc_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/hash_fnv.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/link_list.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/oahash.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_helpers_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_manager_control.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_module_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_notify.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_packet.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_types.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/berkeley_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/dhcpv6_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/dhcpv6_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/lldp_manager.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/lldp_private.h</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/lldp_tlv.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/ipv4_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/ipv4_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/ndp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/ndp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/ipv6_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/ipv6_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/icmpv6_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/udp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/udp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_heap_alloc.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/arp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/arp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/dhcp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/dhcp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/dhcps_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/dhcps_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/dns_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/dns_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/dnss_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/dnss_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/ddns_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/ftp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/ftp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/http_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/http_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/http_net_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/http_net_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/icmp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/nbns_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_reboot_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/smtp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/smtpc_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/snmp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/snmp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/snmpv3_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/sntp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/telnet_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/zero_conf_helper.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/zero_conf_link_local_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/zero_conf_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_announce_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/iperf_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_commands_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tftpc_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tftpc_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/hash_fnv.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/link_list.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/oahash.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_helpers_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_manager_control.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_module_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_notify.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_packet.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_types.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/berkeley_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/dhcpv6_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/dhcpv6_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/lldp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/lldp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/lldp_tlv.h</itemPath>
           </logicalFolder>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/ipv4.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/ndp.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/ipv6.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/icmpv6.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tcp.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/udp.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tcpip_heap.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/arp.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/berkeley_api.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tls.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/dhcp.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/dhcps.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/dns.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/dnss.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/ddns.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/ftp.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/http.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/http_net.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/icmp.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/nbns.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/smtp.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/smtpc.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/snmp.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/snmpv3.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/sntp.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/telnet.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/zero_conf_link_local.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/zero_conf_multicast_dns.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/iperf.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tcpip_commands.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tftpc.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tcpip_helpers.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tcpip_manager.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tcpip.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/dhcpv6.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/lldp.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tcpip_announce.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tcpip_reboot.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tcpip_common_ports.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tcpip_mac.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tcpip_mac_object.h</itemPath>
-          <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/tcpip_ethernet.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/ipv4.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/ndp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/ipv6.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/icmpv6.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tcp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/udp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tcpip_heap.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/arp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/berkeley_api.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tls.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/dhcp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/dhcps.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/dns.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/dnss.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/ddns.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/ftp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/http.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/http_net.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/icmp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/nbns.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/smtp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/smtpc.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/snmp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/snmpv3.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/sntp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/telnet.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/zero_conf_link_local.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/zero_conf_multicast_dns.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/iperf.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tcpip_commands.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tftpc.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tcpip_helpers.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tcpip_manager.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tcpip.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/dhcpv6.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/lldp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tcpip_announce.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tcpip_reboot.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tcpip_common_ports.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tcpip_mac.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tcpip_mac_object.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/tcpip_ethernet.h</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -360,64 +360,64 @@
       </logicalFolder>
       <logicalFolder name="f2" displayName="bsp" projectFiles="true">
         <logicalFolder name="f1" displayName="pic32mx_eth_sk2" projectFiles="true">
-          <itemPath>../../../../../microchip/harmony/v1_10/bsp/pic32mx_eth_sk2/bsp_sys_init.c</itemPath>
+          <itemPath>../../../../../microchip/harmony/v1_11/bsp/pic32mx_eth_sk2/bsp_sys_init.c</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f1" displayName="framework" projectFiles="true">
         <logicalFolder name="f1" displayName="crypto" projectFiles="true">
           <logicalFolder name="f1" displayName="src" projectFiles="true">
             <logicalFolder name="f1" displayName="zlib-1.2.7" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/adler32.c</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/compress.c</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/crc32.c</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/deflate.c</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/infback.c</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/inffast.c</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/inflate.c</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/inftrees.c</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/trees.c</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/uncompr.c</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/zlib-1.2.7/zutil.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/adler32.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/compress.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/crc32.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/deflate.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/infback.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/inffast.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/inflate.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/inftrees.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/trees.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/uncompr.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/zlib-1.2.7/zutil.c</itemPath>
             </logicalFolder>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/ecc.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/arc4.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/pwdbased.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/tfm.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/asn.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/des3.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/rsa.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/aes.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/md5.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/sha.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/sha256.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/sha512.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/hmac.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/hash.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/compress.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/random.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/crypto.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/coding.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/error.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/integer.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/logging.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/memory.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/misc.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/crypto/src/port.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/ecc.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/arc4.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/pwdbased.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/tfm.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/asn.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/des3.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/rsa.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/aes.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/md5.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/sha.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/sha256.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/sha512.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/hmac.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/hash.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/compress.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/random.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/crypto.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/coding.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/error.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/integer.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/logging.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/memory.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/misc.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/crypto/src/port.c</itemPath>
           </logicalFolder>
         </logicalFolder>
         <logicalFolder name="f2" displayName="driver" projectFiles="true">
           <logicalFolder name="f1" displayName="ethmac" projectFiles="true">
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethmac/src/dynamic/drv_ethmac.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethmac/src/dynamic/drv_ethmac_lib.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethmac/src/dynamic/drv_ethmac.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethmac/src/dynamic/drv_ethmac_lib.c</itemPath>
           </logicalFolder>
           <logicalFolder name="f2" displayName="ethphy" projectFiles="true">
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethphy/src/dynamic/drv_ethphy.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/ethphy/src/dynamic/drv_extphy_smsc8740.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethphy/src/dynamic/drv_ethphy.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/ethphy/src/dynamic/drv_extphy_smsc8740.c</itemPath>
           </logicalFolder>
           <logicalFolder name="f3" displayName="tmr" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
               <logicalFolder name="f1" displayName="dynamic" projectFiles="true">
-                <itemPath>../../../../../microchip/harmony/v1_10/framework/driver/tmr/src/dynamic/drv_tmr.c</itemPath>
+                <itemPath>../../../../../microchip/harmony/v1_11/framework/driver/tmr/src/dynamic/drv_tmr.c</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -425,45 +425,45 @@
         <logicalFolder name="f3" displayName="system" projectFiles="true">
           <logicalFolder name="f1" displayName="devcon" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/system/devcon/src/sys_devcon.c</itemPath>
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/system/devcon/src/sys_devcon_pic32mx.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/system/devcon/src/sys_devcon.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/system/devcon/src/sys_devcon_pic32mx.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f2" displayName="int" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/system/int/src/sys_int_pic32.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/system/int/src/sys_int_pic32.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f3" displayName="random" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/system/random/src/sys_random.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/system/random/src/sys_random.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f4" displayName="tmr" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/system/tmr/src/sys_tmr.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/system/tmr/src/sys_tmr.c</itemPath>
             </logicalFolder>
           </logicalFolder>
         </logicalFolder>
         <logicalFolder name="f4" displayName="tcpip" projectFiles="true">
           <logicalFolder name="f1" displayName="src" projectFiles="true">
             <logicalFolder name="f1" displayName="common" projectFiles="true">
-              <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/common/helpers.c</itemPath>
+              <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/common/helpers.c</itemPath>
             </logicalFolder>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/ipv4.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/udp.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_heap_alloc.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_heap_internal.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/arp.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/dhcp.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/dns.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/hash_fnv.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/oahash.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_helpers.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_helper_c32.S</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_manager.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_notify.c</itemPath>
-            <itemPath>../../../../../microchip/harmony/v1_10/framework/tcpip/src/tcpip_packet.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/ipv4.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/udp.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_heap_alloc.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_heap_internal.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/arp.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/dhcp.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/dns.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/hash_fnv.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/oahash.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_helpers.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_helper_c32.S</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_manager.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_notify.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v1_11/framework/tcpip/src/tcpip_packet.c</itemPath>
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
@@ -554,7 +554,7 @@
   </logicalFolder>
   <sourceRootList>
     <Elem>../src</Elem>
-    <Elem>../../../microchip/harmony/v1_10</Elem>
+    <Elem>../../../microchip/harmony/v1_11</Elem>
     <Elem>../src/DM30004-2</Elem>
     <Elem>../src/system_config/DM30004-2</Elem>
     <Elem>../../../unabto/src/unabto</Elem>
@@ -570,13 +570,13 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>PKOBSKDEPlatformTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>1.42</languageToolchainVersion>
+        <languageToolchainVersion>1.43</languageToolchainVersion>
         <platform>2</platform>
       </toolsSet>
       <compileType>
         <linkerTool>
           <linkerLibItems>
-            <linkerLibFileItem>../../../../../microchip/harmony/v1_10/bin/framework/peripheral/PIC32MX795F512L_peripherals.a</linkerLibFileItem>
+            <linkerLibFileItem>../../../../../microchip/harmony/v1_11/bin/framework/peripheral/PIC32MX795F512L_peripherals.a</linkerLibFileItem>
           </linkerLibItems>
         </linkerTool>
         <archiverTool>
@@ -607,7 +607,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../../../unabto/src;../../../unabto_harmony_platform;../src;../src/system_config/DM30004-2;../src/DM30004-2;../../../../../microchip/harmony/v1_10/framework;../src/system_config/DM30004-2/framework;../../../../../microchip/harmony/v1_10/bsp/pic32mx_eth_sk2"/>
+                  value="../../../unabto/src;../../../unabto_harmony_platform;../../../../../microchip/harmony/v1_10/framework;../src;../src/system_config/DM30004-2;../src/DM30004-2;../../../../../microchip/harmony/v1_11/framework;../src/system_config/DM30004-2/framework;../../../../../microchip/harmony/v1_11/bsp/pic32mx_eth_sk2"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
