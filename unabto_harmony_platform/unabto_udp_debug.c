@@ -53,5 +53,6 @@ void unabto_udp_debug(const char* format, ...) {
     TCPIP_UDP_DestinationIPAddressSet(state.socket, IP_ADDRESS_TYPE_IPV4, &state.address);
     TCPIP_UDP_DestinationPortSet(state.socket, state.port);
     TCPIP_UDP_ArrayPut(state.socket, buffer, printed);
+    TCPIP_UDP_Put(state.socket, '\n');
     TCPIP_UDP_Flush(state.socket);
 }
