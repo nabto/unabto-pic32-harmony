@@ -38,10 +38,14 @@ Clone this github repository recursively such that submodules get checked out.
 
   1. Flash the device as explained in the above section.
   2. Download the simpleclient_app from www.nabto.com/downloads.html
-  3. run ./simpleclient_app --devices to discover the device, note down the name of your device
-  4. Find the stream_tester_app some magical place
-  5. Run ./stream_tester_app -q the.device.name.from.step.3.net -t echo
-  6. Type anything into your terminal, press enter, and the see the device echo it back. Each echo should also toggle the onboard LED.
+  3. Run ```./simpleclient_app --devices``` to discover the device, note down the name of your device
+  4. Run simpleclient_app with the discovered device:
+       ```./simpleclient_app -q the.device.name.from.step.3.net --echotest 100 --echocommand true```
+  5. You should see a terminal output similar to this:
+       No username specified, defaulting to guest.
+       read: 102 testSize_ 100
+       test result: 0
+     The LED on the PIC32 should also toggle on/off every time step 4 is performed.
 
 ## Quirks
 

@@ -100,7 +100,7 @@ void APP_Tasks ( void )
 
         case APP_STATE_INIT_UNABTO:
         {
-            unabto_udp_debug_init("192.168.0.101", 4242);
+            unabto_udp_debug_init("192.168.1.57", 4242);
             TCPIP_NET_HANDLE defaultIf = TCPIP_STACK_NetDefaultGet();
             const uint8_t* physicalAddress = TCPIP_STACK_NetAddressMac(defaultIf);
             if (physicalAddress == NULL) {

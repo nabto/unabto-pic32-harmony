@@ -75,6 +75,7 @@ void unabto_stream_event(unabto_stream* stream, unabto_stream_event_type type) {
                     }
                 } else {
                     if (buf[i] != echoString[echo->commandLength] || echo->commandLength > strlen(echoString)) {
+                        NABTO_LOG_TRACE(("ECHO_STATE_READ_COMMAND Failed."));
                         echo->state = ECHO_STATE_COMMAND_FAIL;
                         ackLength = readLength;
                         break;
