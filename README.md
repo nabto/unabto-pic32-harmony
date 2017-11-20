@@ -21,7 +21,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MPLAB%20Harmony%20Tutorial%20-%2
 
 Clone this github repository recursively such that submodules get checked out.
 
-  * git clone --recursive https://github.com/nabto/unabto-pic32-harmony
+  * git clone --recursive https://github.com/nabto/unabto-pic32-sdk
   * open one of the projects in demo/firmware/ or streamdemo/firmware/ folders with MPLAB X
   * Generate the Harmony configurator code
   * Connect the PIC32 Ethernet Starter Kit II to your PC using the miniUSB port (J7), and connect the Ethernet port to your network.
