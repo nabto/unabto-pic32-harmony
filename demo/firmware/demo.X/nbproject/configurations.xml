@@ -6,22 +6,22 @@
                    projectFiles="true">
       <logicalFolder name="f3" displayName="app" projectFiles="true">
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
-          <logicalFolder name="f1" displayName="DM30004-2" projectFiles="true">
+          <logicalFolder name="f2" displayName="DM320004_2" projectFiles="true">
             <logicalFolder name="f2" displayName="bsp" projectFiles="true">
-              <itemPath>../src/system_config/DM30004-2/bsp/bsp.h</itemPath>
+              <itemPath>../src/system_config/DM320004_2/bsp/bsp.h</itemPath>
             </logicalFolder>
             <logicalFolder name="f1" displayName="framework" projectFiles="true">
               <logicalFolder name="f1" displayName="system" projectFiles="true">
                 <logicalFolder name="f1" displayName="devcon" projectFiles="true">
                   <logicalFolder name="f1" displayName="src" projectFiles="true">
-                    <itemPath>../src/system_config/DM30004-2/framework/system/devcon/src/sys_devcon_local.h</itemPath>
+                    <itemPath>../src/system_config/DM320004_2/framework/system/devcon/src/sys_devcon_local.h</itemPath>
                   </logicalFolder>
-                  <itemPath>../src/system_config/DM30004-2/framework/system/devcon/sys_devcon.h</itemPath>
+                  <itemPath>../src/system_config/DM320004_2/framework/system/devcon/sys_devcon.h</itemPath>
                 </logicalFolder>
               </logicalFolder>
             </logicalFolder>
-            <itemPath>../src/system_config/DM30004-2/system_config.h</itemPath>
-            <itemPath>../src/system_config/DM30004-2/system_definitions.h</itemPath>
+            <itemPath>../src/system_config/DM320004_2/system_config.h</itemPath>
+            <itemPath>../src/system_config/DM320004_2/system_definitions.h</itemPath>
           </logicalFolder>
         </logicalFolder>
         <itemPath>../src/app.h</itemPath>
@@ -105,12 +105,71 @@
           </logicalFolder>
           <itemPath>../../../../../microchip/harmony/v2_04/framework/crypto/crypto.h</itemPath>
         </logicalFolder>
-        <logicalFolder name="f2" displayName="osal" projectFiles="true">
+        <logicalFolder name="f2" displayName="driver" projectFiles="true">
+          <logicalFolder name="f1" displayName="ethmac" projectFiles="true">
+            <logicalFolder name="f1" displayName="src" projectFiles="true">
+              <logicalFolder name="f1" displayName="dynamic" projectFiles="true">
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethmac/src/dynamic/_eth_dcpt_lists.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethmac/src/dynamic/drv_ethmac_lib.h</itemPath>
+              </logicalFolder>
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethmac/src/drv_ethmac_local.h</itemPath>
+            </logicalFolder>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethmac/drv_ethmac.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="ethphy" projectFiles="true">
+            <logicalFolder name="f1" displayName="src" projectFiles="true">
+              <logicalFolder name="f1" displayName="dynamic" projectFiles="true">
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/dynamic/drv_extphy_regs.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/dynamic/drv_extphy_dp83640.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/dynamic/drv_extphy_dp83848.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/dynamic/drv_extphy_ip101gr.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/dynamic/drv_extphy_smsc8700.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/dynamic/drv_extphy_smsc8720.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/dynamic/drv_extphy_smsc8740.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/dynamic/drv_extphy_smsc9303.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/dynamic/drv_extphy_ksz8061.h</itemPath>
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/dynamic/drv_extphy_ksz8041.h</itemPath>
+              </logicalFolder>
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/drv_ethphy_local.h</itemPath>
+            </logicalFolder>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/drv_ethphy.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f3" displayName="miim" projectFiles="true">
+            <logicalFolder name="f1" displayName="config" projectFiles="true">
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/miim/config/drv_miim_config.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f2" displayName="src" projectFiles="true">
+              <logicalFolder name="f1" displayName="dynamic" projectFiles="true">
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/miim/src/dynamic/drv_miim_mapping.h</itemPath>
+              </logicalFolder>
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/miim/src/drv_miim_local.h</itemPath>
+            </logicalFolder>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/miim/drv_miim.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f4" displayName="tmr" projectFiles="true">
+            <logicalFolder name="f1" displayName="src" projectFiles="true">
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/tmr/src/drv_tmr_variant_mapping.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/tmr/src/drv_tmr_local.h</itemPath>
+            </logicalFolder>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/tmr/drv_tmr.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/tmr/drv_tmr_mapping.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/tmr/drv_tmr_compatibility.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/tmr/tmr_definitions_pic32m.h</itemPath>
+          </logicalFolder>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/driver.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/driver_common.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f6" displayName="net" projectFiles="true">
+          <logicalFolder name="f1" displayName="pres" projectFiles="true">
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/net/pres/net_pres.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="osal" projectFiles="true">
           <itemPath>../../../../../microchip/harmony/v2_04/framework/osal/osal.h</itemPath>
           <itemPath>../../../../../microchip/harmony/v2_04/framework/osal/osal_definitions.h</itemPath>
           <itemPath>../../../../../microchip/harmony/v2_04/framework/osal/osal_impl_basic.h</itemPath>
         </logicalFolder>
-        <logicalFolder name="f3" displayName="system" projectFiles="true">
+        <logicalFolder name="f4" displayName="system" projectFiles="true">
           <logicalFolder name="f2" displayName="clk" projectFiles="true">
             <itemPath>../../../../../microchip/harmony/v2_04/framework/system/clk/sys_clk.h</itemPath>
             <itemPath>../../../../../microchip/harmony/v2_04/framework/system/clk/sys_clk_compatibility.h</itemPath>
@@ -125,6 +184,9 @@
           <logicalFolder name="f4" displayName="debug" projectFiles="true">
             <itemPath>../../../../../microchip/harmony/v2_04/framework/system/debug/sys_debug.h</itemPath>
           </logicalFolder>
+          <logicalFolder name="f8" displayName="fs" projectFiles="true">
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/system/fs/sys_fs.h</itemPath>
+          </logicalFolder>
           <logicalFolder name="f5" displayName="int" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
               <itemPath>../../../../../microchip/harmony/v2_04/framework/system/int/src/sys_int_private.h</itemPath>
@@ -136,7 +198,143 @@
             <itemPath>../../../../../microchip/harmony/v2_04/framework/system/ports/sys_ports.h</itemPath>
             <itemPath>../../../../../microchip/harmony/v2_04/framework/system/ports/sys_ports_definitions.h</itemPath>
           </logicalFolder>
+          <logicalFolder name="f6" displayName="random" projectFiles="true">
+            <logicalFolder name="f1" displayName="src" projectFiles="true">
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/system/random/src/sys_random_local.h</itemPath>
+            </logicalFolder>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/system/random/sys_random.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f7" displayName="tmr" projectFiles="true">
+            <logicalFolder name="f1" displayName="src" projectFiles="true">
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/system/tmr/src/sys_tmr_local.h</itemPath>
+            </logicalFolder>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/system/tmr/sys_tmr.h</itemPath>
+          </logicalFolder>
           <itemPath>../../../../../microchip/harmony/v2_04/framework/system/system.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f5" displayName="tcpip" projectFiles="true">
+          <logicalFolder name="f1" displayName="src" projectFiles="true">
+            <logicalFolder name="f2" displayName="common" projectFiles="true">
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/common/helpers.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f1" displayName="crypto" projectFiles="true">
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/crypto/aes.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/crypto/aes_cbc.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/crypto/aes_cfb.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/crypto/aes_ctr.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/crypto/aes_ecb.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/crypto/aes_ecb_pic32.h</itemPath>
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/crypto/aes_ofb.h</itemPath>
+            </logicalFolder>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/ipv4_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/ipv4_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/ndp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/ndp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/ipv6_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/ipv6_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/icmpv6_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/udp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/udp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_heap_alloc.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/arp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/arp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/dhcp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/dhcp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/dhcps_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/dhcps_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/dns_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/dns_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/dnss_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/dnss_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/ddns_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/ftp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/ftp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/http_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/http_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/http_net_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/http_net_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/icmp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/nbns_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_reboot_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/smtp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/smtpc_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/smtpc_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/snmp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/snmp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/snmpv3_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/sntp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/telnet_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/zero_conf_helper.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/zero_conf_link_local_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/zero_conf_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_announce_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/iperf_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_commands_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tftpc_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tftpc_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/igmp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/igmp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/hash_fnv.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/link_list.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/oahash.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_helpers_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_manager_control.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_module_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_notify.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_packet.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_types.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/berkeley_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/dhcpv6_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/dhcpv6_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/lldp_manager.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/lldp_private.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/lldp_tlv.h</itemPath>
+          </logicalFolder>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/ipv4.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/ndp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/ipv6.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/icmpv6.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tcp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/udp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tcpip_heap.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/arp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/berkeley_api.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/dhcp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/dhcps.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/dns.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/dnss.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/ddns.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/ftp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/http.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/http_net.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/icmp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/nbns.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/smtp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/smtpc.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/snmp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/snmpv3.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/sntp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/telnet.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/zero_conf_link_local.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/zero_conf_multicast_dns.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/iperf.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tcpip_commands.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tftpc.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/igmp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tcpip_helpers.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tcpip_manager.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tcpip.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/dhcpv6.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/lldp.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tcpip_announce.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tcpip_reboot.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tcpip_common_ports.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tcpip_mac.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tcpip_mac_object.h</itemPath>
+          <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/tcpip_ethernet.h</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -149,34 +347,34 @@
                    projectFiles="true">
       <logicalFolder name="f3" displayName="app" projectFiles="true">
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
-          <logicalFolder name="f1" displayName="DM30004-2" projectFiles="true">
+          <logicalFolder name="f2" displayName="DM320004_2" projectFiles="true">
             <logicalFolder name="f2" displayName="bsp" projectFiles="true">
-              <itemPath>../src/system_config/DM30004-2/bsp/bsp.c</itemPath>
+              <itemPath>../src/system_config/DM320004_2/bsp/bsp.c</itemPath>
             </logicalFolder>
             <logicalFolder name="f1" displayName="framework" projectFiles="true">
               <logicalFolder name="f1" displayName="system" projectFiles="true">
                 <logicalFolder name="f1" displayName="clk" projectFiles="true">
                   <logicalFolder name="f1" displayName="src" projectFiles="true">
-                    <itemPath>../src/system_config/DM30004-2/framework/system/clk/src/sys_clk_pic32mx.c</itemPath>
+                    <itemPath>../src/system_config/DM320004_2/framework/system/clk/src/sys_clk_pic32mx.c</itemPath>
                   </logicalFolder>
                 </logicalFolder>
                 <logicalFolder name="f2" displayName="devcon" projectFiles="true">
                   <logicalFolder name="f1" displayName="src" projectFiles="true">
-                    <itemPath>../src/system_config/DM30004-2/framework/system/devcon/src/sys_devcon.c</itemPath>
-                    <itemPath>../src/system_config/DM30004-2/framework/system/devcon/src/sys_devcon_pic32mx.c</itemPath>
+                    <itemPath>../src/system_config/DM320004_2/framework/system/devcon/src/sys_devcon.c</itemPath>
+                    <itemPath>../src/system_config/DM320004_2/framework/system/devcon/src/sys_devcon_pic32mx.c</itemPath>
                   </logicalFolder>
                 </logicalFolder>
                 <logicalFolder name="f3" displayName="ports" projectFiles="true">
                   <logicalFolder name="f1" displayName="src" projectFiles="true">
-                    <itemPath>../src/system_config/DM30004-2/framework/system/ports/src/sys_ports_static.c</itemPath>
+                    <itemPath>../src/system_config/DM320004_2/framework/system/ports/src/sys_ports_static.c</itemPath>
                   </logicalFolder>
                 </logicalFolder>
               </logicalFolder>
             </logicalFolder>
-            <itemPath>../src/system_config/DM30004-2/system_init.c</itemPath>
-            <itemPath>../src/system_config/DM30004-2/system_interrupt.c</itemPath>
-            <itemPath>../src/system_config/DM30004-2/system_exceptions.c</itemPath>
-            <itemPath>../src/system_config/DM30004-2/system_tasks.c</itemPath>
+            <itemPath>../src/system_config/DM320004_2/system_init.c</itemPath>
+            <itemPath>../src/system_config/DM320004_2/system_interrupt.c</itemPath>
+            <itemPath>../src/system_config/DM320004_2/system_exceptions.c</itemPath>
+            <itemPath>../src/system_config/DM320004_2/system_tasks.c</itemPath>
           </logicalFolder>
         </logicalFolder>
         <itemPath>../src/app.c</itemPath>
@@ -225,11 +423,66 @@
             <itemPath>../../../../../microchip/harmony/v2_04/framework/crypto/src/wolfmath.c</itemPath>
           </logicalFolder>
         </logicalFolder>
-        <logicalFolder name="f2" displayName="system" projectFiles="true">
+        <logicalFolder name="f2" displayName="driver" projectFiles="true">
+          <logicalFolder name="f1" displayName="ethmac" projectFiles="true">
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethmac/src/dynamic/drv_ethmac.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethmac/src/dynamic/drv_ethmac_lib.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="ethphy" projectFiles="true">
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/dynamic/drv_ethphy.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/ethphy/src/dynamic/drv_extphy_smsc8740.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f3" displayName="miim" projectFiles="true">
+            <logicalFolder name="f1" displayName="src" projectFiles="true">
+              <logicalFolder name="f1" displayName="dynamic" projectFiles="true">
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/miim/src/dynamic/drv_miim.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="f4" displayName="tmr" projectFiles="true">
+            <logicalFolder name="f1" displayName="src" projectFiles="true">
+              <logicalFolder name="f1" displayName="dynamic" projectFiles="true">
+                <itemPath>../../../../../microchip/harmony/v2_04/framework/driver/tmr/src/dynamic/drv_tmr.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="system" projectFiles="true">
           <logicalFolder name="f1" displayName="int" projectFiles="true">
             <logicalFolder name="f1" displayName="src" projectFiles="true">
               <itemPath>../../../../../microchip/harmony/v2_04/framework/system/int/src/sys_int_pic32.c</itemPath>
             </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="random" projectFiles="true">
+            <logicalFolder name="f1" displayName="src" projectFiles="true">
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/system/random/src/sys_random.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="f3" displayName="tmr" projectFiles="true">
+            <logicalFolder name="f1" displayName="src" projectFiles="true">
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/system/tmr/src/sys_tmr.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="f4" displayName="tcpip" projectFiles="true">
+          <logicalFolder name="f1" displayName="src" projectFiles="true">
+            <logicalFolder name="f1" displayName="common" projectFiles="true">
+              <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/common/helpers.c</itemPath>
+            </logicalFolder>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/ipv4.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/udp.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_heap_alloc.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_heap_internal.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/arp.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/dhcp.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/dns.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/hash_fnv.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/oahash.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_helpers.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_helper_c32.S</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_manager.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_notify.c</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_04/framework/tcpip/src/tcpip_packet.c</itemPath>
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
@@ -325,6 +578,8 @@
     <Elem>../../../unabto/src/unabto</Elem>
     <Elem>../../../unabto_harmony_platform</Elem>
     <Elem>../../../microchip/harmony/v2_04</Elem>
+    <Elem>../src/DM320004_2</Elem>
+    <Elem>../src/system_config/DM320004_2</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -373,7 +628,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../../../unabto/src;../../../unabto_harmony_platform;../src;../src/system_config/DM30004-2;../src/DM30004-2;../../../../../microchip/harmony/v2_04/framework;../src/system_config/DM30004-2/framework;../src/system_config/DM30004-2/bsp"/>
+                  value="../../../unabto/src;../../../unabto_harmony_platform;../src/system_config/DM30004-2;../src/DM30004-2;../src/system_config/DM30004-2/framework;../src/system_config/DM30004-2/bsp;../src;../src/system_config/DM320004_2;../src/DM320004_2;../../../../../microchip/harmony/v2_04/framework;../src/system_config/DM320004_2/framework;../src/system_config/DM320004_2/bsp"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -433,7 +688,7 @@
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-cross-reference-file" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
-        <property key="heap-size" value="0"/>
+        <property key="heap-size" value="44960"/>
         <property key="input-libraries" value=""/>
         <property key="kseg-length" value=""/>
         <property key="kseg-origin" value=""/>

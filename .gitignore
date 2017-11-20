@@ -9,3 +9,5 @@
 *.o
 *.o.d
 *~
+/demo/firmware/demo.X/build/DM320004_2/
+/demo/firmware/demo.X/dist/DM320004_2/
