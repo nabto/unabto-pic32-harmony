@@ -3,9 +3,9 @@
   <projectmakefile>Makefile</projectmakefile>
   <defaultConf>0</defaultConf>
   <confs>
-    <conf name="DM30004-2" type="2">
+    <conf name="DM320004_2" type="2">
       <platformToolSN>:=MPLABComm-USB-Microchip:=&lt;vid>04D8:=&lt;pid>8107:=&lt;rev>0002:=&lt;man>Microchip Technology Inc.:=&lt;prod>PIC32 ESK-II:=&lt;sn>BUR144125608:=&lt;drv>x:=&lt;xpt>h:=end</platformToolSN>
-      <languageToolchainDir>/opt/microchip/xc32/v1.43/bin</languageToolchainDir>
+      <languageToolchainDir>/opt/microchip/xc32/v1.42/bin</languageToolchainDir>
       <mdbdebugger version="1">
         <placeholder1>place holder 1</placeholder1>
         <placeholder2>place holder 2</placeholder2>

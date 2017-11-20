@@ -55,7 +55,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 // *****************************************************************************
 
 #include "app.h"
-#include <bsp_config.h>
+#include <bsp.h>
 #include <crypto/crypto.h>
 #include <stdint.h>
 
