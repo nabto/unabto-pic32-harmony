@@ -6,9 +6,9 @@ The version numbers below is the versions the software has been built
 and tested with, older or newer versions may work.
 
 # Requirements
-  1. Microchip XC32 1.43
-  2. Microchip Harmony 1.11
-  3. Microchip MPLAB X IDE 3.65
+  1. Microchip XC32 1.44
+  2. Microchip Harmony 2.04
+  3. Microchip MPLAB X IDE 4.05
   4. Microchip Ethernet Starterkit II
 
 In the MPLAB X IDE please make sure that MPLAB Harmony Configurator is installed in tools->plugins in the Installed tab
@@ -23,7 +23,15 @@ Clone this github repository recursively such that submodules get checked out.
 
   * git clone --recursive https://github.com/nabto/unabto-pic32-sdk
   * open one of the projects in demo/firmware/ or streamdemo/firmware/ folders with MPLAB X
-  * Generate the Harmony configurator code
+  * Generate the Harmony configurator code, this is rather tricky if
+    you are new to harmony/mplab X. Set the project as the startup
+    project. Goto the harmony configurator `Tools -> Embedded -> MPLAB
+    Harmony configurator` when the ide asks for the harmony folder
+    give the folder where you installed harmony, if unsure run the
+    harmony installer again. Now open the DM320004_2.mhc configuration
+    file and click on the code generation button. The harmony step fails
+    easily because of the complexity and if any component in the
+    system has been updated.
   * Connect the PIC32 Ethernet Starter Kit II to your PC using the miniUSB port (J7), and connect the Ethernet port to your network.
   * compile with XC32
   * flash target
