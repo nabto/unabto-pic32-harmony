@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="62">
+<configurationDescriptor version="65">
   <logicalFolder name="root" displayName="root" projectFiles="true">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
       <logicalFolder name="f3" displayName="app" projectFiles="true">
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
-          <logicalFolder name="f1" displayName="DM320004_2" projectFiles="true">
+          <logicalFolder name="f1" displayName="DM30004-2" projectFiles="true">
             <logicalFolder name="f2" displayName="bsp" projectFiles="true">
-              <itemPath>../src/system_config/DM320004_2/bsp/bsp.h</itemPath>
+              <itemPath>../src/system_config/DM30004-2/bsp/bsp.h</itemPath>
             </logicalFolder>
             <logicalFolder name="f1" displayName="framework" projectFiles="true">
               <logicalFolder name="f1" displayName="system" projectFiles="true">
                 <logicalFolder name="f1" displayName="devcon" projectFiles="true">
                   <logicalFolder name="f1" displayName="src" projectFiles="true">
-                    <itemPath>../src/system_config/DM320004_2/framework/system/devcon/src/sys_devcon_local.h</itemPath>
+                    <itemPath>../src/system_config/DM30004-2/framework/system/devcon/src/sys_devcon_local.h</itemPath>
                   </logicalFolder>
-                  <itemPath>../src/system_config/DM320004_2/framework/system/devcon/sys_devcon.h</itemPath>
+                  <itemPath>../src/system_config/DM30004-2/framework/system/devcon/sys_devcon.h</itemPath>
                 </logicalFolder>
               </logicalFolder>
             </logicalFolder>
@@ -347,21 +347,21 @@
                    projectFiles="true">
       <logicalFolder name="f3" displayName="app" projectFiles="true">
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
-          <logicalFolder name="f1" displayName="DM320004_2" projectFiles="true">
+          <logicalFolder name="f1" displayName="DM30004-2" projectFiles="true">
             <logicalFolder name="f2" displayName="bsp" projectFiles="true">
-              <itemPath>../src/system_config/DM320004_2/bsp/bsp.c</itemPath>
+              <itemPath>../src/system_config/DM30004-2/bsp/bsp.c</itemPath>
             </logicalFolder>
             <logicalFolder name="f1" displayName="framework" projectFiles="true">
               <logicalFolder name="f1" displayName="system" projectFiles="true">
                 <logicalFolder name="f1" displayName="clk" projectFiles="true">
                   <logicalFolder name="f1" displayName="src" projectFiles="true">
-                    <itemPath>../src/system_config/DM320004_2/framework/system/clk/src/sys_clk_pic32mx.c</itemPath>
+                    <itemPath>../src/system_config/DM30004-2/framework/system/clk/src/sys_clk_pic32mx.c</itemPath>
                   </logicalFolder>
                 </logicalFolder>
                 <logicalFolder name="f2" displayName="devcon" projectFiles="true">
                   <logicalFolder name="f1" displayName="src" projectFiles="true">
-                    <itemPath>../src/system_config/DM320004_2/framework/system/devcon/src/sys_devcon.c</itemPath>
-                    <itemPath>../src/system_config/DM320004_2/framework/system/devcon/src/sys_devcon_pic32mx.c</itemPath>
+                    <itemPath>../src/system_config/DM30004-2/framework/system/devcon/src/sys_devcon.c</itemPath>
+                    <itemPath>../src/system_config/DM30004-2/framework/system/devcon/src/sys_devcon_pic32mx.c</itemPath>
                   </logicalFolder>
                 </logicalFolder>
                 <logicalFolder name="f3" displayName="ports" projectFiles="true">
@@ -399,6 +399,9 @@
               <itemPath>../../../../../microchip/harmony/v2_04/framework/crypto/src/zlib-1.2.7/uncompr.c</itemPath>
               <itemPath>../../../../../microchip/harmony/v2_04/framework/crypto/src/zlib-1.2.7/zutil.c</itemPath>
             </logicalFolder>
+            <itemPath>../../../../../microchip/harmony/v2_06/framework/crypto/src/async.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_06/framework/crypto/src/pic32mz-crypt.h</itemPath>
+            <itemPath>../../../../../microchip/harmony/v2_06/framework/crypto/src/sha3.h</itemPath>
             <itemPath>../../../../../microchip/harmony/v2_04/framework/crypto/src/ecc.c</itemPath>
             <itemPath>../../../../../microchip/harmony/v2_04/framework/crypto/src/arc4.c</itemPath>
             <itemPath>../../../../../microchip/harmony/v2_04/framework/crypto/src/pwdbased.c</itemPath>
@@ -488,71 +491,85 @@
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder name="f4" displayName="unabto" projectFiles="true">
-        <itemPath>../../../unabto/src/unabto/unabto.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_aes128_sha256.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_aes128_sha256.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_aes_cbc.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_app.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_app_adapter.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_app_adapter.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_attach.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_attach.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_buffers.c</itemPath>
+      <logicalFolder name="unabto" displayName="unabto" projectFiles="true">
+        <logicalFolder name="util" displayName="util" projectFiles="true">
+          <itemPath>../../../unabto/src/unabto/util/unabto_queue.c</itemPath>
+          <itemPath>../../../unabto/src/unabto/util/unabto_queue.h</itemPath>
+          <itemPath>../../../unabto/src/unabto/util/unabto_buffer.h</itemPath>
+          <itemPath>../../../unabto/src/unabto/util/unabto_buffer.c</itemPath>
+        </logicalFolder>
+        <itemPath>../../../unabto/src/unabto/unabto_env_base.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_packet.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_external_environment.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_packet.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_stream_event.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_types.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_packet_util.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_main_contexts.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_util.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_config_check.h</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_buffers.h</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_common_main.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_common_main.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_config_check.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_config_defaults.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_config_derived.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_connection.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_connection.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_connection_type.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_context.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_context.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_crypto.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_crypto.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_debug_packet.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_debug_packet.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_dns_fallback.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_env_base.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_environment.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_extended_rendezvous.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_extended_rendezvous.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_external_environment.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_hmac_sha256.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_include_platform.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_logging.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_logging_defines.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_main_contexts.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_memory.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_stream_window.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_stream.h</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_memory.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_message.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_message.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_next_event.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_next_event.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_packet.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_packet.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_packet_util.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_stream_types.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_config_defaults.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_push.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_extended_rendezvous.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_memory.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_context.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_endpoint.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_buffers.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_aes128_sha256.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_psk_connection.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_config_derived.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_app.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_debug_packet.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_crypto.h</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_packet_util.h</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_prf.c</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_prf.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_protocol_defines.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_protocol_exceptions.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_query_rw.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_query_rw.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_stream.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_stream.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_stream_environment.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_stream_environment.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_message.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_message.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_connection_util.c</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_stream_event.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_stream_event.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_stream_types.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_protocol_defines.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_extended_rendezvous.c</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_stream_window.c</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_stream_window.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_psk_connection.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_connection.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_crypto.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_next_event.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_query_rw.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_aes_cbc.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_protocol_exceptions.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_debug_packet.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_aes128_sha256.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_attach.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_app_adapter.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_context.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_endpoint.h</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_tcp_fallback.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_logging_defines.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_connection.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_stream_environment.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_hmac_sha256.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_include_platform.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_stream.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_next_event.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_common_main.h</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_tcp_fallback.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_util.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_app_adapter.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_environment.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_query_rw.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_connection_util.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_connection_type.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_push.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_attach.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_logging.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_stream_environment.c</itemPath>
       </logicalFolder>
       <logicalFolder name="f5" displayName="unabto_platform" projectFiles="true">
         <itemPath>../../../unabto_harmony_platform/unabto_harmony_crypto.c</itemPath>
@@ -574,14 +591,12 @@
   </logicalFolder>
   <sourceRootList>
     <Elem>../src</Elem>
-    <Elem>../../../microchip/harmony/v1_11</Elem>
     <Elem>../src/DM30004-2</Elem>
     <Elem>../src/system_config/DM30004-2</Elem>
     <Elem>../../../unabto/src/unabto</Elem>
     <Elem>../../../unabto_harmony_platform</Elem>
+    <Elem>../../../../../microchip/harmony/v2_06/framework/crypto/src</Elem>
     <Elem>../../../microchip/harmony/v2_04</Elem>
-    <Elem>../src/DM320004_2</Elem>
-    <Elem>../src/system_config/DM320004_2</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -593,9 +608,12 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>PKOBSKDEPlatformTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>1.42</languageToolchainVersion>
+        <languageToolchainVersion>2.10</languageToolchainVersion>
         <platform>2</platform>
       </toolsSet>
+      <packs>
+        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.0.23"/>
+      </packs>
       <compileType>
         <linkerTool>
           <linkerLibItems>
@@ -630,7 +648,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../../../unabto/src;../../../unabto_harmony_platform;../src;../src/system_config/DM320004_2;../src/DM320004_2;../../../../../microchip/harmony/v2_04/framework;../src/system_config/DM320004_2/framework;../src/system_config/DM320004_2/bsp"/>
+                  value="../../../unabto/src;../../../unabto_harmony_platform;../../../../../microchip/harmony/v1_10/framework;../src;../src/system_config/DM30004-2;../src/DM30004-2;../../../../../microchip/harmony/v2_04/framework;../src/system_config/DM30004-2/framework;../src/system_config/DM30004-2/bsp"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -673,6 +691,7 @@
       </C32-AS>
       <C32-LD>
         <property key="additional-options-use-response-files" value="false"/>
+        <property key="additional-options-write-sla" value="false"/>
         <property key="allocate-dinit" value="false"/>
         <property key="code-dinit" value="false"/>
         <property key="ebase-addr" value=""/>
