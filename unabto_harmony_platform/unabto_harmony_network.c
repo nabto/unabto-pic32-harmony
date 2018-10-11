@@ -5,7 +5,7 @@
 
 
 
-bool nabto_init_socket(uint32_t localAddr, uint16_t* localPort, nabto_socket_t* socket)
+bool nabto_socket_init(uint16_t* localPort, nabto_socket_t* socket)
 {
     nabto_socket_t sock = TCPIP_UDP_ServerOpen(IP_ADDRESS_TYPE_ANY, *localPort, 0);
     if (sock != NABTO_INVALID_SOCKET) {
@@ -20,7 +20,7 @@ bool nabto_init_socket(uint32_t localAddr, uint16_t* localPort, nabto_socket_t* 
 }
 
 
-void nabto_close_socket(nabto_socket_t* socket)
+void nabto_socket_close(nabto_socket_t* socket)
 {
     if (*socket != NABTO_INVALID_SOCKET) {
         if (!TCPIP_UDP_Close(*socket)) {
@@ -35,7 +35,7 @@ void nabto_close_socket(nabto_socket_t* socket)
 ssize_t nabto_read(nabto_socket_t socket,
                    uint8_t*       buf,
                    size_t         len,
-                   uint32_t*      addr,
+                   struct nabto_ip_address*      addr,
                    uint16_t*      port)
 {
     uint16_t readyBytes = TCPIP_UDP_GetIsReady(socket);
@@ -45,7 +45,8 @@ ssize_t nabto_read(nabto_socket_t socket,
     UDP_SOCKET_INFO info;
     if (TCPIP_UDP_SocketInfoGet(socket, &info)) {
         *port = info.remotePort;
-        *addr = TCPIP_Helper_ntohl(info.sourceIPaddress.v4Add.Val);
+        addr->addr.ipv4 = TCPIP_Helper_ntohl(info.sourceIPaddress.v4Add.Val);
+        addr->type = NABTO_IP_V4;
     }
 
     uint16_t readen = TCPIP_UDP_ArrayGet(socket, buf, MIN(len, readyBytes));
@@ -56,12 +57,15 @@ ssize_t nabto_read(nabto_socket_t socket,
 ssize_t nabto_write(nabto_socket_t socket,
                     const uint8_t* buf,
                     size_t         len,
-                    uint32_t       addr,
+                    const struct nabto_ip_address* addr,
                     uint16_t       port)
 {
 
     IP_MULTI_ADDRESS remoteAddress;
-    remoteAddress.v4Add.Val = TCPIP_Helper_htonl(addr);
+    if (addr->type != NABTO_IP_V4) {
+        return 0;
+    }
+    remoteAddress.v4Add.Val = TCPIP_Helper_htonl(addr->addr.ipv4);
 
     TCPIP_UDP_PutIsReady(socket);
     if (TCPIP_UDP_DestinationIPAddressSet(socket, IP_ADDRESS_TYPE_IPV4, &remoteAddress) &&
@@ -73,7 +77,18 @@ ssize_t nabto_write(nabto_socket_t socket,
     return 0;
 }
 
-bool nabto_get_local_ip(uint32_t* ip)
+bool nabto_get_local_ipv4(struct nabto_ip_address* ip)
 {
     return false;
 }
+
+bool nabto_socket_is_equal(const nabto_socket_t* s1, const nabto_socket_t* s2)
+{
+    return *s1 == *s2;
+}
+
+void nabto_socket_set_invalid(nabto_socket_t* sock)
+{
+    *sock = NABTO_INVALID_SOCKET;
+}
+    

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="62">
+<configurationDescriptor version="65">
   <logicalFolder name="root" displayName="root" projectFiles="true">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
       <logicalFolder name="f3" displayName="app" projectFiles="true">
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
-          <logicalFolder name="f2" displayName="DM320004_2" projectFiles="true">
+          <logicalFolder name="f1" displayName="DM320004_2" projectFiles="true">
             <logicalFolder name="f2" displayName="bsp" projectFiles="true">
               <itemPath>../src/system_config/DM320004_2/bsp/bsp.h</itemPath>
             </logicalFolder>
@@ -347,7 +347,7 @@
                    projectFiles="true">
       <logicalFolder name="f3" displayName="app" projectFiles="true">
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
-          <logicalFolder name="f2" displayName="DM320004_2" projectFiles="true">
+          <logicalFolder name="f1" displayName="DM320004_2" projectFiles="true">
             <logicalFolder name="f2" displayName="bsp" projectFiles="true">
               <itemPath>../src/system_config/DM320004_2/bsp/bsp.c</itemPath>
             </logicalFolder>
@@ -512,7 +512,6 @@
         <itemPath>../../../unabto/src/unabto/unabto_crypto.h</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_debug_packet.c</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_debug_packet.h</itemPath>
-        <itemPath>../../../unabto/src/unabto/unabto_dns_fallback.h</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_env_base.h</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_environment.h</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_extended_rendezvous.c</itemPath>
@@ -551,6 +550,14 @@
         <itemPath>../../../unabto/src/unabto/unabto_tcp_fallback.c</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_tcp_fallback.h</itemPath>
         <itemPath>../../../unabto/src/unabto/unabto_util.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_endpoint.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_endpoint.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_connection_util.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_connection_util.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_psk_connection.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_psk_connection.h</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_push.c</itemPath>
+        <itemPath>../../../unabto/src/unabto/unabto_push.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f5" displayName="unabto_platform" projectFiles="true">
         <itemPath>../../../unabto_harmony_platform/unabto_harmony_crypto.c</itemPath>
@@ -572,7 +579,6 @@
   </logicalFolder>
   <sourceRootList>
     <Elem>../src</Elem>
-    <Elem>../../../microchip/harmony/v1_11</Elem>
     <Elem>../src/DM30004-2</Elem>
     <Elem>../src/system_config/DM30004-2</Elem>
     <Elem>../../../unabto/src/unabto</Elem>
@@ -591,9 +597,12 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>PKOBSKDEPlatformTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>1.42</languageToolchainVersion>
+        <languageToolchainVersion>2.10</languageToolchainVersion>
         <platform>2</platform>
       </toolsSet>
+      <packs>
+        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.0.23"/>
+      </packs>
       <compileType>
         <linkerTool>
           <linkerLibItems>
@@ -671,6 +680,7 @@
       </C32-AS>
       <C32-LD>
         <property key="additional-options-use-response-files" value="false"/>
+        <property key="additional-options-write-sla" value="false"/>
         <property key="allocate-dinit" value="false"/>
         <property key="code-dinit" value="false"/>
         <property key="ebase-addr" value=""/>

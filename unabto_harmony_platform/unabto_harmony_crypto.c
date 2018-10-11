@@ -5,7 +5,7 @@
 #include <crypto/crypto.h>
 #include <string.h>
 
-bool aes128_cbc_encrypt(const uint8_t* key, uint8_t* input, uint16_t inputLength)
+bool unabto_aes128_cbc_encrypt(const uint8_t* key, uint8_t* input, uint16_t inputLength)
 {
     CRYPT_AES_CTX ctx;
     int status = CRYPT_AES_KeySet(&ctx, key, 16, input, CRYPT_AES_ENCRYPTION);
@@ -21,7 +21,7 @@ bool aes128_cbc_encrypt(const uint8_t* key, uint8_t* input, uint16_t inputLength
     return true;
 }
 
-bool aes128_cbc_decrypt(const uint8_t* key, uint8_t* input, uint16_t inputLength)
+bool unabto_aes128_cbc_decrypt(const uint8_t* key, uint8_t* input, uint16_t inputLength)
 {
     CRYPT_AES_CTX ctx;
     int status = CRYPT_AES_KeySet(&ctx, key, 16, input, CRYPT_AES_DECRYPTION);
